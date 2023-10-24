@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --primary-color: #ffc500;
+  --secondary-color: #eaae00;
+  --third-color: #00c0cc;
+  --third-color-hover: #02acb8;
+  --dark-color: #302f2f;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.container-header{
+  background-color: var(--secondary-color);
+
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 0px 50px;
+}
+
+
+.header-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.header-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-menu ul li a:hover {
+  color: var(--primary-color);
+}
+
+.main {
+  background-color: var(--primary-color);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+
+  width: 100%;
+  padding: 30px 50px;
+}
+
+.main-col1 {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  color: white;
+}
+
+
+.contact-button1 .contact-button2 {
+  width: 100px;
+  height: 100px;
+  border: none;
+}
+
+.contact-button1 a .contact-button2 a  {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-button1:hover{
+  background-color: var(--third-color-hover);
+}
+
+
+.contact-button1{
+  background-color: var(--third-color);
+}
+
+.main-col2 {
+  width: 40%;
+}
+.main-col2 figure {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 
+  - Fonte Roboto. 
+  - Pode utilizar Bootstrap. 
+  - Empregar media-queries para no mínimo a versão mobile. 
+  - Dois arquivos. (Um com a página inicial, o segundo com o formulário (+ header e footer))
+  - 
+*/
